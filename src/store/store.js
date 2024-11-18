@@ -44,7 +44,7 @@ export const REMOVE_TOAST = (payload) => dispatch("REMOVE_TOAST", payload);
 export const UPDATE_TOAST = (payload) => dispatch("UPDATE_TOAST", payload);
 
 export const useStore = () => {
-    const [state, setState] = useState(memoryState);
+    const [state, setState] = React.useState(memoryState);
 
     useEffect(() => {
         listeners.push(setState);
