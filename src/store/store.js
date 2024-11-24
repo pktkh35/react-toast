@@ -46,7 +46,7 @@ export const UPDATE_TOAST = (payload) => dispatch("UPDATE_TOAST", payload);
 export const useStore = () => {
     const [state, setState] = React.useState(memoryState);
 
-    useEffect(() => {
+    React.useEffect(() => {
         listeners.push(setState);
         return () => {
             const index = listeners.indexOf(setState);
