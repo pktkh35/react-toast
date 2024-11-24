@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useCallback, useEffect, useRef } from "preact/hooks";
+import { useCallback, useEffect, useRef } from "react";
 import { eventManager } from "../core/eventManager"
 import { toast as TOASTS } from "../core/toast";
 import { ADD_TOAST, REMOVE_TOAST, UPDATE_TOAST, useStore } from "../store/store";
