@@ -1,4 +1,4 @@
-import * as React from 'preact';
+import * as React from 'react';
 import { useCallback, useEffect, useRef } from "preact/hooks";
 import { eventManager } from "../core/eventManager"
 import { toast as TOASTS } from "../core/toast";

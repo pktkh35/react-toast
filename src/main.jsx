@@ -1,4 +1,4 @@
-import { render } from 'preact'
+import { render } from 'react'
 import Container from './Container'
 import './style/test.scss'
 import './style/notify.scss'

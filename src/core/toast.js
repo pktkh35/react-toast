@@ -1,4 +1,4 @@
-import * as React from 'preact';
+import * as React from 'react';
 import { isStr, isNum } from '../utils/propValidator';
 import { eventManager } from './eventManager';
 

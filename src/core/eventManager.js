@@ -1,4 +1,4 @@
-import * as React from 'preact';
+import * as React from 'react';
 export const eventManager = {
     list: new Map(),
     emitQueue: new Map(),
